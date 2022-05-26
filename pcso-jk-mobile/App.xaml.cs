@@ -1,11 +1,14 @@
-﻿namespace pcso_jk_mobile;
+﻿using pcso_jk.View;
+
+namespace pcso_jk;
 
 public partial class App : Application
 {
-	public App()
-	{
-		InitializeComponent();
+    public App()
+    {
+        InitializeComponent();
 
-		MainPage = new AppShell();
-	}
+        MainPage = new AppShell();
+        Shell.Current.GoToAsync("//Login");
+    }
 }

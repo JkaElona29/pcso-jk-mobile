@@ -1,4 +1,4 @@
-﻿namespace pcso_jk_mobile;
+﻿namespace pcso_jk;
 
 public partial class AppShell : Shell
 {
